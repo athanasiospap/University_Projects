@@ -1,0 +1,37 @@
+README
+
+---------------
+Files included:
+---------------
+batch.c		
+batchfile
+interactive.c
+Makefile
+README
+
+--------------------------------
+Design Functionality and Issues:
+--------------------------------
+Exoyme dyo ekdoxes toy programmatos, mia einai h INTERACTIVE kai mia h BATCH leitourgia tou shell.
+
+1) Interactive function
+
+	./myshell
+	papazoglou_8324> pwd
+	/home/user/Desktop/OS project
+	papazoglou_8324> ls
+	batch.c batchfile interactive.c Makefile README
+	papazoglou_8324> quit
+
+2) Batch function
+	
+	batchfile —> pwd; ls
+		     ;echo “hello”
+		     quit;
+
+
+	./myshell batchfile
+	/home/user/Desktop/OS project
+	batch.c batchfile interactive.c Makefile README
+	hello
+	
