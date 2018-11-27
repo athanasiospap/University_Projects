@@ -173,4 +173,5 @@ int main()
         cout<<"temaxia"<<i+1<<" "<<tem[i];
     }
     return 0;
+    
 }
